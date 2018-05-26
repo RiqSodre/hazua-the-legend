@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: fed8d1a87d383fc48a04e55d1a57048d
+timeCreated: 1525567494
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Hazua cortado_0
+    21300002: Hazua cortado_1
+    21300004: Hazua cortado_2
+    21300006: Hazua cortado_3
+    21300008: Hazua cortado_4
+    21300010: Hazua cortado_5
+    21300012: Hazua cortado_6
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hazua cortado_0
+      rect:
+        serializedVersion: 2
+        x: 27.770329
+        y: 113.77635
+        width: 113.47887
+        height: 310.09198
+      alignment: 9
+      pivot: {x: 0.41619793, y: 0.49896052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hazua cortado_1
+      rect:
+        serializedVersion: 2
+        x: 178.93538
+        y: 291.3379
+        width: 194.5692
+        height: 209.89008
+      alignment: 9
+      pivot: {x: 0.50400895, y: 0.4962698}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hazua cortado_2
+      rect:
+        serializedVersion: 2
+        x: 163.70773
+        y: 107.348946
+        width: 187.98044
+        height: 183.8494
+      alignment: 9
+      pivot: {x: 0.4962871, y: 0.50395083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hazua cortado_3
+      rect:
+        serializedVersion: 2
+        x: 391.377
+        y: 163.69441
+        width: 71.31427
+        height: 124.74605
+      alignment: 9
+      pivot: {x: 0.49952114, y: 0.543549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hazua cortado_5
+      rect:
+        serializedVersion: 2
+        x: 85.938
+        y: 12.754662
+        width: 79.36281
+        height: 83.06588
+      alignment: 9
+      pivot: {x: 0.517396, y: 0.502557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hazua cortado_6
+      rect:
+        serializedVersion: 2
+        x: 382.28342
+        y: 13.43997
+        width: 85.755554
+        height: 95.10411
+      alignment: 9
+      pivot: {x: 0.49812034, y: 0.51059866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 99979585257472
+  assetBundleName: 
+  assetBundleVariant: 
