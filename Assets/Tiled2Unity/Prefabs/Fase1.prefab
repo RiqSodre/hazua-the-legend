@@ -185,6 +185,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1526472667577308
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4507037335088678}
+  - component: {fileID: 60125004356898766}
+  m_Layer: 0
+  m_Name: Collision
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1547124784485570
 GameObject:
   m_ObjectHideFlags: 1
@@ -234,22 +250,6 @@ GameObject:
   - component: {fileID: 114053864244903972}
   m_Layer: 0
   m_Name: 12
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1663324826185646
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4516219723997912}
-  - component: {fileID: 60424554510943260}
-  m_Layer: 0
-  m_Name: Collision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -564,7 +564,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4667645183837062}
-  - {fileID: 4516219723997912}
+  - {fileID: 4507037335088678}
   m_Father: {fileID: 4177454007945750}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -594,12 +594,12 @@ Transform:
   m_Father: {fileID: 4020045743807764}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4516219723997912
+--- !u!4 &4507037335088678
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1663324826185646}
+  m_GameObject: {fileID: 1526472667577308}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1373,12 +1373,12 @@ PolygonCollider2D:
       - {x: 3712, y: -2817}
       - {x: 3712, y: -2944}
       - {x: 3839, y: -2944}
---- !u!60 &60424554510943260
+--- !u!60 &60125004356898766
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1663324826185646}
+  m_GameObject: {fileID: 1526472667577308}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
