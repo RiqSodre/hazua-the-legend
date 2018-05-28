@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hazua The Legend", "Hazua The Legend.csproj", "{84FDE5A8-3E98-8B3C-7DBF-2E3BF786A159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hazua The Legend.Editor", "Hazua The Legend.Editor.csproj", "{A54BFCB5-1AFB-CE09-88B9-7989861CA942}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84FDE5A8-3E98-8B3C-7DBF-2E3BF786A159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84FDE5A8-3E98-8B3C-7DBF-2E3BF786A159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84FDE5A8-3E98-8B3C-7DBF-2E3BF786A159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84FDE5A8-3E98-8B3C-7DBF-2E3BF786A159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54BFCB5-1AFB-CE09-88B9-7989861CA942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54BFCB5-1AFB-CE09-88B9-7989861CA942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54BFCB5-1AFB-CE09-88B9-7989861CA942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54BFCB5-1AFB-CE09-88B9-7989861CA942}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
