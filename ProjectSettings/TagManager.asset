@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Music
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -50,4 +51,7 @@ TagManager:
     locked: 0
   - name: Agua
     uniqueID: 3950862273
+    locked: 0
+  - name: HUD
+    uniqueID: 2170259631
     locked: 0

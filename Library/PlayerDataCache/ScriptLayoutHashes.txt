@@ -1,5 +1,5 @@
 WindowsStandalone
-b99606a7f9ed170396401a8fdb730c85 Assembly-CSharp.dll:.Hazua_Controller
+164764085e5e95e13f7bf862dc4329ef Assembly-CSharp.dll:.Player
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 9f07aaefd0255462bb6e4f9e5da6b2d4 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -95,6 +95,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 7b848b7feaa524953d09fc1851efa6da UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 7b848b7feaa524953d09fc1851efa6da UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 c24a21b131bfa67be1162db2cba4b52b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+925287bb033b16ef8f307268782f2141 Assembly-CSharp.dll:.PauseMenu
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -109,6 +110,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Respawn
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LoadScene
 fab3f48bb6484a76cde2b81e3201be7e Assembly-CSharp.dll:Tiled2Unity.TileObject
 1ac45e65362b8990ca8bc05364d4581e Assembly-CSharp.dll:Tiled2Unity.ImportBehaviour
@@ -126,7 +128,6 @@ bb21ecf26db1f02f72231857956971b6 Assembly-CSharp.dll:Anima2D.SpriteMesh
 542530e11789dc403468901628b3f4a8 Assembly-CSharp.dll:Anima2D.Bone2D
 f149f24230a6358c2804c5fae71459a2 Assembly-CSharp.dll:Tiled2Unity.TileAnimator
 68a6470d9b146708efff0ffee7d49c66 Assembly-CSharp.dll:.SpriteCycle
-2f1f417658cf537ca2e6e66f0808efcd Assembly-CSharp.dll:.Enemy_Attack
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -144,6 +145,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 e10245ebf6407bde38e71ee3699f57d2 Assembly-CSharp.dll:.SpriteCycleParallax
 6de27d44fd8221c044725607ba9fb429 Assembly-CSharp.dll:Anima2D.Control
 680330d121a1f3e37f1784b1f5d7badf Assembly-CSharp.dll:.Enemy_Controller
+713ba51a708af9bb44b3313514683a1b Assembly-CSharp.dll:.HUD
 329bcbf88b3c0197d230f5b9ceb88333 Assembly-CSharp.dll:Tiled2Unity.PolygonObject
 329bcbf88b3c0197d230f5b9ceb88333 Assembly-CSharp.dll:Tiled2Unity.CircleObject
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -160,6 +162,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 8ff8e4f2fdfb53cf0cef85f24f6f7740 Assembly-CSharp.dll:Tiled2Unity.TileLayer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Anima2D.EditorUpdaterProxy
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Tiled2Unity.SortingLayerExposed
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Menu
 b6a4e0f46582e1b4ea27adb53405c4c7 Assembly-CSharp.dll:Tiled2Unity.SpriteDepthInMap
 1bd73dc08780414ea7c06375d2fbc18e Assembly-CSharp.dll:UnityChan.SpringCollider
 e1038aa7f4b50abdc53c0f0508bd8b17 Assembly-CSharp.dll:Anima2D.IkGroup
@@ -170,5 +173,3 @@ d290070ecf091336e70150a7db25d112 Assembly-CSharp.dll:Tiled2Unity.ObjectLayer
 db3b233e35a88802fed1717d19c3d9ec Assembly-CSharp.dll:.Follow
 9a6ce7dad7e8aee4b6fc16d50385a21b Assembly-CSharp.dll:Anima2D.IkCCD2D
 a8e482df6d69222c2ca475ef90a9561e Assembly-CSharp.dll:.SkinnedMeshCombiner
-cee926caf74c6e4fc4574ca0818edcbb Assembly-CSharp.dll:.Hazua_Health
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Menu
