@@ -145,7 +145,6 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 e10245ebf6407bde38e71ee3699f57d2 Assembly-CSharp.dll:.SpriteCycleParallax
 6de27d44fd8221c044725607ba9fb429 Assembly-CSharp.dll:Anima2D.Control
 680330d121a1f3e37f1784b1f5d7badf Assembly-CSharp.dll:.Enemy_Controller
-713ba51a708af9bb44b3313514683a1b Assembly-CSharp.dll:.HUD
 329bcbf88b3c0197d230f5b9ceb88333 Assembly-CSharp.dll:Tiled2Unity.PolygonObject
 329bcbf88b3c0197d230f5b9ceb88333 Assembly-CSharp.dll:Tiled2Unity.CircleObject
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -162,6 +161,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 8ff8e4f2fdfb53cf0cef85f24f6f7740 Assembly-CSharp.dll:Tiled2Unity.TileLayer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Anima2D.EditorUpdaterProxy
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Tiled2Unity.SortingLayerExposed
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Enemy_Attack
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Menu
 b6a4e0f46582e1b4ea27adb53405c4c7 Assembly-CSharp.dll:Tiled2Unity.SpriteDepthInMap
 1bd73dc08780414ea7c06375d2fbc18e Assembly-CSharp.dll:UnityChan.SpringCollider
@@ -173,3 +173,4 @@ d290070ecf091336e70150a7db25d112 Assembly-CSharp.dll:Tiled2Unity.ObjectLayer
 db3b233e35a88802fed1717d19c3d9ec Assembly-CSharp.dll:.Follow
 9a6ce7dad7e8aee4b6fc16d50385a21b Assembly-CSharp.dll:Anima2D.IkCCD2D
 a8e482df6d69222c2ca475ef90a9561e Assembly-CSharp.dll:.SkinnedMeshCombiner
+693a9078355892d5bfa860f9a41be09e Assembly-CSharp.dll:.GameControl
