@@ -111,7 +111,8 @@
     <Compile Include="Assets\Scripts\Camera\Camera_Follow.cs" />
     <Compile Include="Assets\Scripts\Camera\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy_Attack.cs" />
-    <Compile Include="Assets\Scripts\Enemy\Enemy_Controller.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyAI.cs" />
+    <Compile Include="Assets\Scripts\Manager\AttackTrigger.cs" />
     <Compile Include="Assets\Scripts\Manager\DontDestroyAudio.cs" />
     <Compile Include="Assets\Scripts\Manager\FadeOut.cs" />
     <Compile Include="Assets\Scripts\Manager\GameControl.cs" />
@@ -120,6 +121,7 @@
     <Compile Include="Assets\Scripts\Manager\Menu.cs" />
     <Compile Include="Assets\Scripts\Manager\Respawn.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\Scripts\Player\Player_Attack.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GameObjectExtensions.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GPUInstancing.cs" />

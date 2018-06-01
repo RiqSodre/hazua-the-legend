@@ -14,12 +14,7 @@ public class Player : MonoBehaviour
     bool hazua_FacingR = true;         //Determina a direção em que Hazua está olhando.
     bool grounded = false;             //Várivael que verifica se está pisando em solo.
     public bool doubleJump = false;           //Váriavel booleana para o pulo duplo.
-
-    //Stats
-    public int curHealth;
-    public int maxHealth = 5;
- 
-
+    
     //References
     private Animator hazua_Animator;   //Referenciando o componente de animação do Hazua.
     private Rigidbody2D hazua_Rigid;   //Referenciando o componente de Rigidbody2d.
@@ -33,8 +28,6 @@ public class Player : MonoBehaviour
         transform.tag = "Player";                  //Setando a tag Player ao iniciar.
         hazua_Animator = GetComponent<Animator>(); //Instanciando a váriavel com o componente Animator.
         hazua_Rigid = GetComponent<Rigidbody2D>(); //Instanciando a váriavel com o componente Rigidbody.
-
-        curHealth = maxHealth;  //Determinando que a vida será máxima ao iniciar o jogo.
     }
 
     void Start()
@@ -87,26 +80,5 @@ public class Player : MonoBehaviour
                 doubleJump = true;
             }
         }
-
-        if(curHealth > maxHealth)
-        {
-            curHealth = maxHealth;
-        }
-
-        if(curHealth <= 0)
-        {
-            Die();
-        }
-    }
-
-    void Die()
-    {
-        //Restart
-        if (curHealth < 0)
-        {
-            curHealth = 0;
-        }
-
-        SceneManager.LoadScene("Game");
     }
 }

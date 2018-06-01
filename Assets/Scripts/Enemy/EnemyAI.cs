@@ -2,24 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy_Controller : MonoBehaviour {
+public class EnemyAI : MonoBehaviour {
 
+    //References
     private Rigidbody2D e_Rigidbody;
     private Transform e_Transform;
     //private Animator enemy_Animator;
     public Transform GroundCheck;
     public Transform WallCheck;
 
+    //Booleans
     private bool isWall;
     private bool isGround;
     private bool facingRight;
 
+    //Floats
     public float speed;
     public float radiusGround;
     public float radiusWall;
 
     public LayerMask solid;
 
+    public int curHealth;
+    public int maxHelath = 100;
 
 	void Awake() {
         e_Rigidbody = GetComponent<Rigidbody2D>();
@@ -27,6 +32,7 @@ public class Enemy_Controller : MonoBehaviour {
         //enemy_Animator = GetComponent<Animator>();
 
         facingRight = true;
+        curHealth = maxHelath;
 	}
 	
 	// Update is called once per frame
@@ -61,5 +67,18 @@ public class Enemy_Controller : MonoBehaviour {
         e_Transform.localScale = new Vector2(-e_Transform.localScale.x, e_Transform.localScale.y);
 
         speed *= -1;
+    }
+
+    public void  Damage(int damage)
+    {
+        curHealth -= damage;
+    }
+
+    private void Update()
+    {
+        if(curHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }
