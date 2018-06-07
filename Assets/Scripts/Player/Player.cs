@@ -21,7 +21,8 @@ public class Player : MonoBehaviour
     
     
     public Transform groundCheck;      //Verifica se é realmente um chão.
-    public LayerMask whatIsGround;     //Cria uma camada para saber o que é chão.   
+    public LayerMask whatIsGround;     //Cria uma camada para saber o que é chão. 
+    private GameControl health;
 
     void Awake()
     {
@@ -80,5 +81,12 @@ public class Player : MonoBehaviour
                 doubleJump = true;
             }
         }
+
+        if(GameControl.health <= 0)
+        {
+            Time.timeScale = 0.3f;
+            hazua_Animator.SetBool("Dead", true);
+        }
     }
+
 }
