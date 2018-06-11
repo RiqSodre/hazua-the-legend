@@ -1550,10 +1550,13 @@ MonoBehaviour:
   jumpForce: 800
   groundRadius: 0.2
   doubleJump: 0
+  jumpSound: {fileID: 0}
+  deathSound: {fileID: 0}
   groundCheck: {fileID: 4997981291107526}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 4294966783
+  DeathUI: {fileID: 0}
 --- !u!114 &114783320765834396
 MonoBehaviour:
   m_ObjectHideFlags: 1

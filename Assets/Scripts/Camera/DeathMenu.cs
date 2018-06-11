@@ -5,10 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DeathMenu : MonoBehaviour {
 
-    private GameControl health;
-
     public GameObject DeathUI;
-    private bool gameover = false;
 
     void Awake()
     {
@@ -17,18 +14,7 @@ public class DeathMenu : MonoBehaviour {
 
     void Update()
     {
-        if (GameControl.health <= 0)
-        {
-            DeathUI.SetActive(true);
-            Time.timeScale = 0f;
-            //gameover = !gameover;
-        }
 
-        if (!gameover)
-        {
-            DeathUI.SetActive(false);
-            Time.timeScale = 1f;
-        }
     }
 
     public void Restart()

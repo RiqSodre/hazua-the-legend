@@ -21,6 +21,9 @@ public class EnemyAI : MonoBehaviour {
     public float radiusGround;
     public float radiusWall;
 
+    //Sounds
+    public AudioClip enemyDeath;
+
     public LayerMask solid;
 
     public int curHealth;
@@ -78,6 +81,7 @@ public class EnemyAI : MonoBehaviour {
     {
         if (curHealth <= 0)
         {
+            SoundManager.instance.PlaySingle(enemyDeath);
             enemy_Animator.SetBool("Dead", true);
             enemy_Animator.SetBool("Walking", false);
             speed = 0f;

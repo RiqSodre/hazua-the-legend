@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {
     //Floats
     public float hazua_Speed = 10f;    //Determina o quão rápido ele pode andar no eixo X.
-    public float jumpForce = 800f;     //Determinando a força do pulo.
+    public float jumpForce = 830f;     //Determinando a força do pulo.
     public float groundRadius = 0.2f;  //Cria um raio de 0.2f em volta do Hazua.
 
     //Booleans
@@ -18,17 +18,22 @@ public class Player : MonoBehaviour
     //References
     private Animator hazua_Animator;   //Referenciando o componente de animação do Hazua.
     private Rigidbody2D hazua_Rigid;   //Referenciando o componente de Rigidbody2d.
-    
-    
+
+    //Sounds
+    public AudioClip jumpSound;
+    public AudioClip deathSound;
+
     public Transform groundCheck;      //Verifica se é realmente um chão.
     public LayerMask whatIsGround;     //Cria uma camada para saber o que é chão. 
-    private GameControl health;
+    public GameObject DeathUI;
 
     void Awake()
     {
         transform.tag = "Player";                  //Setando a tag Player ao iniciar.
         hazua_Animator = GetComponent<Animator>(); //Instanciando a váriavel com o componente Animator.
         hazua_Rigid = GetComponent<Rigidbody2D>(); //Instanciando a váriavel com o componente Rigidbody.
+
+        DeathUI.SetActive(false);
     }
 
     void Start()
@@ -75,16 +80,21 @@ public class Player : MonoBehaviour
         {
             hazua_Animator.SetBool("Ground", false);            //Determinando que o Hazua não está no chão.
             hazua_Rigid.AddForce(new Vector2(0, jumpForce));    //Adicionando uma força para o pulo.
+            SoundManager.instance.PlaySingle(jumpSound);
 
             if (!doubleJump && !grounded)
             {
+                SoundManager.instance.PlaySingle(jumpSound);
                 doubleJump = true;
             }
         }
 
         if(GameControl.health <= 0)
         {
+            SoundManager.instance.PlaySingle(deathSound);
             hazua_Animator.SetBool("Dead", true);
+            DeathUI.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 

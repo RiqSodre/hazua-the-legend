@@ -221,8 +221,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1230083340044272}
   m_LocalRotation: {x: -0, y: -0, z: -0.014809807, w: 0.9998903}
-  m_LocalPosition: {x: -253.21, y: 8.19, z: 0}
-  m_LocalScale: {x: 3.564094, y: 3.5640934, z: 3.5640934}
+  m_LocalPosition: {x: -247.45634, y: 8.246643, z: 0}
+  m_LocalScale: {x: 3.5640936, y: 3.5640929, z: 3.5640934}
   m_Children:
   - {fileID: 4202144996836806}
   - {fileID: 4366392821994300}
@@ -250,7 +250,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1166238464942352}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.834, y: -0.856, z: 0}
+  m_LocalPosition: {x: -0.918, y: -0.849, z: 0}
   m_LocalScale: {x: 1.10345, y: 1.1034504, z: 1.1034504}
   m_Children: []
   m_Father: {fileID: 4289232245711056}
@@ -350,6 +350,7 @@ MonoBehaviour:
   speed: 5
   radiusGround: 0.2
   radiusWall: 0.2
+  enemyDeath: {fileID: 8300000, guid: b600f5550e8a46a4693826c6a08e51da, type: 3}
   solid:
     serializedVersion: 2
     m_Bits: 256

@@ -122,6 +122,7 @@
     <Compile Include="Assets\Scripts\Manager\LoadScene.cs" />
     <Compile Include="Assets\Scripts\Manager\Menu.cs" />
     <Compile Include="Assets\Scripts\Manager\Respawn.cs" />
+    <Compile Include="Assets\Scripts\Manager\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Player\Player_Attack.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
