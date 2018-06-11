@@ -7,14 +7,14 @@ public class EnemyAI : MonoBehaviour {
     //References
     private Rigidbody2D e_Rigidbody;
     private Transform e_Transform;
-    //private Animator enemy_Animator;
+    private Animator enemy_Animator;
     public Transform GroundCheck;
     public Transform WallCheck;
 
     //Booleans
     private bool isWall;
     private bool isGround;
-    private bool facingRight;
+    private bool facingLeft;
 
     //Floats
     public float speed;
@@ -29,9 +29,9 @@ public class EnemyAI : MonoBehaviour {
 	void Awake() {
         e_Rigidbody = GetComponent<Rigidbody2D>();
         e_Transform = GetComponent<Transform>();
-        //enemy_Animator = GetComponent<Animator>();
-
-        facingRight = true;
+        enemy_Animator = GetComponent<Animator>();
+        
+        facingLeft = true;
         curHealth = maxHelath;
 	}
 	
@@ -46,24 +46,24 @@ public class EnemyAI : MonoBehaviour {
         isGround = Physics2D.OverlapCircle(GroundCheck.position, radiusGround, solid);
         isWall = Physics2D.OverlapCircle(WallCheck.position, radiusWall, solid);
 
-        if((!isGround || isWall) && facingRight)
+        if((!isGround || isWall) && facingLeft)
         {
             Flip();
         }
-        else if((!isGround || isWall) && !facingRight)
+        else if((!isGround || isWall) && !facingLeft)
         {
             Flip();
         }
 
         if (isGround)
         {
-            e_Rigidbody.velocity = new Vector2(speed, e_Rigidbody.velocity.y);
+            e_Rigidbody.velocity = new Vector2(-speed, e_Rigidbody.velocity.y);
         }
     }
 
     void Flip()
     {
-        facingRight = !facingRight;
+        facingLeft = !facingLeft;
         e_Transform.localScale = new Vector2(-e_Transform.localScale.x, e_Transform.localScale.y);
 
         speed *= -1;
@@ -76,9 +76,11 @@ public class EnemyAI : MonoBehaviour {
 
     private void Update()
     {
-        if(curHealth <= 0)
+        if (curHealth <= 0)
         {
-            Destroy(gameObject);
+            enemy_Animator.SetBool("Dead", true);
+            enemy_Animator.SetBool("Walking", false);
+            speed = 0f;
         }
     }
 }

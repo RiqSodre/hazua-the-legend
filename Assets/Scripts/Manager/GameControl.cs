@@ -4,8 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameControl : MonoBehaviour {
-
-    private Animator player;
+    
     public GameObject heart0, heart1, heart2, heart3, heart4, heart5;
     public static int health;
 
@@ -17,9 +16,7 @@ public class GameControl : MonoBehaviour {
         heart3.gameObject.SetActive(true);
         heart4.gameObject.SetActive(true);
         heart5.gameObject.SetActive(true);
-
-        player = GetComponent<Animator>();
-        player.SetBool("Dead", false);
+        
     }
 	
 	// Update is called once per frame

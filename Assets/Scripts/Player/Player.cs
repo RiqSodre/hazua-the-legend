@@ -84,7 +84,6 @@ public class Player : MonoBehaviour
 
         if(GameControl.health <= 0)
         {
-            Time.timeScale = 0.3f;
             hazua_Animator.SetBool("Dead", true);
         }
     }

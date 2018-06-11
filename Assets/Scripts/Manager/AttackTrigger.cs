@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AttackTrigger : MonoBehaviour {
 
-    public int damage = 20;
+    public int damage = 100;
 
     private void OnTriggerEnter2D(Collider2D coll)
     {
